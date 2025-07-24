@@ -1,0 +1,32 @@
+# Ignore OS files
+.DS_Store
+Thumbs.db
+
+# Ignore logs
+*.log
+
+# Ignore compiled files
+*.class
+*.exe
+
+# Ignore IDE/project-specific files
+.idea/
+*.iml
+*.vscode/
+
+# Ignore environment or secret config
+.env
+
+# Ignore node_modules if it’s a JS project
+node_modules/
+
+# Ignore build outputs
+dist/
+build/
+
+# Ignore database files (optional)
+*.sqlite
+*.db
+
+# Ignore Java target folder
+target/
